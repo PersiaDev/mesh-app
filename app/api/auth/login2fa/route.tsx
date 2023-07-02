@@ -28,3 +28,13 @@ fetch("https://api.nukleus.cloud/api/auth/login2fa", requestOptions)
   .then(result => console.log(result))
   .catch(error => console.log('error', error));
 */
+
+function page() {
+  return (
+    <div>
+      login2fa page!
+    </div>
+  )
+}
+
+export default page
